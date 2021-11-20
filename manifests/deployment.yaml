@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
     name: app-wil
 spec:
-    replicas: 2
+    replicas: 1
     selector:
         matchLabels:
             app: app-wil
